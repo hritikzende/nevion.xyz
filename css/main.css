@@ -1,0 +1,54 @@
+html,body {
+	height: 100%;
+    width: 100%;
+}
+
+.container {
+    max-width: 65em !important;
+}
+
+.header {
+    background: linear-gradient(-180deg, #e53c5c 0%, #321c42 100%);
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px #fff solid;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.staff {
+    border-radius: 100%;
+    display: inline-block;
+    max-width: 10em;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.moderator {
+    border: 4px solid #22894c;
+}
+
+.admin {
+    border: 4px solid #2fcb72;
+}
+
+.manager {
+    border: 4px solid #9b58b5;
+}
+
+.ceo {
+    border: 4px solid #3498d8;
+}
+
+footer {
+    background: #87304e !important;;
+    padding: 3em !important;
+}
