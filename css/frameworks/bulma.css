@@ -5387,12 +5387,12 @@ a.tag:hover {
 }
 
 .tag.is-moderator {
-  background-color: #22894c;
+  background-color: #11806a;
   color: #fff;
 }
 
-.tag.is-admin {
-  background-color: #2fcb72;
+.tag.is-administrator {
+  background-color: #22894c;
   color: #111;
 }
 
