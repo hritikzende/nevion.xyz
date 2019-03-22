@@ -33,11 +33,11 @@ html,body {
 }
 
 .moderator {
-    border: 4px solid #22894c;
+    border: 4px solid #11806a;
 }
 
 .administrator {
-    border: 4px solid #11806a;
+    border: 4px solid #22894c;
 }
 
 .manager {
