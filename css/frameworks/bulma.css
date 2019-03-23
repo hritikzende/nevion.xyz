@@ -5393,7 +5393,7 @@ a.tag:hover {
 
 .tag.is-administrator {
   background-color: #22894c;
-  color: #111;
+  color: #fff;
 }
 
 .tag.is-manager {
