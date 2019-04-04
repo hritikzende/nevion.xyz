@@ -8,14 +8,19 @@ html,body {
 }
 
 .header {
-    background: linear-gradient(-180deg, #e53c5c 0%, #321c42 100%);
+    background: linear-gradient(321deg, #e53c5c, #321c42);
+    background-size: 400% 400%;
+    -webkit-animation: gradient 14s ease infinite;
+    -moz-animation: gradient 14s ease infinite;
+    -o-animation: gradient 14s ease infinite;
+    animation: gradient 14s ease infinite;
 }
 
 .logo {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 3px #fff solid;
+    border: 3px #87304e solid;
     -webkit-user-drag: none;
     -khtml-user-drag: none;
     -moz-user-drag: none;
@@ -33,22 +38,27 @@ html,body {
 }
 
 .moderator {
-    border: 4px solid #11806a;
+    border: 3px solid #11806a;
 }
 
 .administrator {
-    border: 4px solid #22894c;
+    border: 3px solid #22894c;
 }
 
 .manager {
-    border: 4px solid #9b58b5;
+    border: 3px solid #9b58b5;
 }
 
 .ceo {
-    border: 4px solid #3498d8;
+    border: 3px solid #3498d8;
+}
+
+h1 {
+    font-size: 2em;
+	color: white;
 }
 
 footer {
     background: #87304e !important;;
-    padding: 3em !important;
+    padding: 2em !important;
 }
