@@ -5396,6 +5396,11 @@ a.tag:hover {
   color: #fff;
 }
 
+.tag.is-supervisor {
+  background-color: #ad1457;
+  color: #fff;
+}
+
 .tag.is-manager {
   background-color: #9b58b5;
   color: #fff;
