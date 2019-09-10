@@ -4,10 +4,16 @@ html,
 body {
   height: 100%;
   width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background: #111111;
 }
 
 .container {
-  max-width: 65em !important;
+  max-width: 60em !important;
+}
+
+.box {
+  background: #222222;
 }
 
 .header {
@@ -19,8 +25,8 @@ body {
   animation: gradient 14s ease infinite;
 }
 
-footer {
-  background: #87304e !important;
+.footer {
+  background: #222222 !important;
   padding: 2em !important;
 }
 
@@ -30,7 +36,7 @@ footer {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 3px #87304e solid;
+  border: 3px #222222 solid;
   -webkit-user-drag: none;
   -khtml-user-drag: none;
   -moz-user-drag: none;
@@ -47,29 +53,17 @@ footer {
   -o-user-drag: none;
 }
 
-/* Text & Border Styling */
+/* Text Styling */
 
 h1 {
   font-size: 2em;
-  color: white;
+  color: #fff;
 }
 
-.moderator {
-  border: 3px solid #11806a;
+p {
+  color: #fff;
 }
 
-.administrator {
-  border: 3px solid #2ecc71;
-}
-
-.supervisor {
-  border: 3px solid #ad1457;
-}
-
-.manager {
-  border: 3px solid #6c4bd8;
-}
-
-.ceo {
-  border: 3px solid #3498d8;
+.linky {
+  color: #fff !important;
 }
