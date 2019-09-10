@@ -1,68 +1,75 @@
-html,body {
-	height: 100%;
-    width: 100%;
+/* Layout Styling */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
 .container {
-    max-width: 65em !important;
+  max-width: 65em !important;
 }
 
 .header {
-    background: linear-gradient(321deg, #e53c5c, #321c42);
-    background-size: 400% 400%;
-    -webkit-animation: gradient 14s ease infinite;
-    -moz-animation: gradient 14s ease infinite;
-    -o-animation: gradient 14s ease infinite;
-    animation: gradient 14s ease infinite;
-}
-
-.logo {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 3px #87304e solid;
-    -webkit-user-drag: none;
-    -khtml-user-drag: none;
-    -moz-user-drag: none;
-    -o-user-drag: none;
-}
-
-.staff {
-    border-radius: 100%;
-    display: inline-block;
-    max-width: 10em;
-    -webkit-user-drag: none;
-    -khtml-user-drag: none;
-    -moz-user-drag: none;
-    -o-user-drag: none;
-}
-
-.moderator {
-    border: 3px solid #11806a;
-}
-
-.administrator {
-    border: 3px solid #2ecc71;
-}
-
-.supervisor {
-    border: 3px solid #ad1457;
-}
-
-.manager {
-    border: 3px solid #6c4bd8;
-}
-
-.ceo {
-    border: 3px solid #3498d8;
-}
-
-h1 {
-    font-size: 2em;
-	color: white;
+  background: linear-gradient(321deg, #e53c5c, #321c42);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 14s ease infinite;
+  -moz-animation: gradient 14s ease infinite;
+  -o-animation: gradient 14s ease infinite;
+  animation: gradient 14s ease infinite;
 }
 
 footer {
-    background: #87304e !important;;
-    padding: 2em !important;
+  background: #87304e !important;
+  padding: 2em !important;
+}
+
+/* Image Styling */
+
+.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px #87304e solid;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+.staff {
+  border-radius: 100%;
+  display: inline-block;
+  max-width: 10em;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+/* Text & Border Styling */
+
+h1 {
+  font-size: 2em;
+  color: white;
+}
+
+.moderator {
+  border: 3px solid #11806a;
+}
+
+.administrator {
+  border: 3px solid #2ecc71;
+}
+
+.supervisor {
+  border: 3px solid #ad1457;
+}
+
+.manager {
+  border: 3px solid #6c4bd8;
+}
+
+.ceo {
+  border: 3px solid #3498d8;
 }
