@@ -1,4 +1,4 @@
-# nevion.xyz
+# [nevion.xyz][1]
 
 Website for the [Nevion][1] Discord server. 
 
