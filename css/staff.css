@@ -11,8 +11,9 @@
 .co-manager {
   border: 3px solid #da004e;
 }
+
 .supervisor {
-  border: 3px solid #ad1457;
+  border: 3px solid #ffa8fb;
 }
 
 .manager {
@@ -44,7 +45,7 @@
 }
 
 .tag.is-supervisor {
-  background-color: #ad1457;
+  background-color: #ffa8fb;
   text-shadow: #222222 3px 3px 3px;
   color: #fff;
 }
