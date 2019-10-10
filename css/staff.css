@@ -8,6 +8,9 @@
   border: 3px solid #2ecc71;
 }
 
+.co-manager {
+  border: 3px solid #da004e;
+}
 .supervisor {
   border: 3px solid #ad1457;
 }
@@ -30,6 +33,12 @@
 
 .tag.is-administrator {
   background-color: #2ecc71;
+  text-shadow: #222222 3px 3px 3px;
+  color: #fff;
+}
+
+.tag.is-co-manager {
+  background-color: #da004e;
   text-shadow: #222222 3px 3px 3px;
   color: #fff;
 }
